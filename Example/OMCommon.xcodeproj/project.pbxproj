@@ -37,11 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1676D61CD2B76F8F04C48B86 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		1676D61CD2B76F8F04C48B86 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		203A92892CE6F5C082F17FF8 /* Pods_OMCommon_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OMCommon_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A01B807BDA6406D033AA328 /* Pods-OMCommon_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OMCommon_Tests.release.xcconfig"; path = "Target Support Files/Pods-OMCommon_Tests/Pods-OMCommon_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		2FB86798460369ED352CC5B8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		497D71F4036111C2B36489C1 /* OMCommon.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = OMCommon.podspec; path = ../OMCommon.podspec; sourceTree = "<group>"; };
+		2FB86798460369ED352CC5B8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		497D71F4036111C2B36489C1 /* OMCommon.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = OMCommon.podspec; path = ../OMCommon.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		55C7989AFDB047A8233992A5 /* Pods-OMCommon_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OMCommon_Example.debug.xcconfig"; path = "Target Support Files/Pods-OMCommon_Example/Pods-OMCommon_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCCE49EAE7B50AA1F35558E /* Pods_OMCommon_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OMCommon_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* OMCommon_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OMCommon_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -103,7 +103,6 @@
 				65E8549F013B4A5264199992 /* Pods-OMCommon_Tests.debug.xcconfig */,
 				2A01B807BDA6406D033AA328 /* Pods-OMCommon_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

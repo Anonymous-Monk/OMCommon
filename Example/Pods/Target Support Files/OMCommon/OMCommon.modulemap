@@ -1,0 +1,6 @@
+framework module OMCommon {
+  umbrella header "OMCommon-umbrella.h"
+
+  export *
+  module * { export * }
+}

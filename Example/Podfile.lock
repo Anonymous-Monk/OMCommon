@@ -1,0 +1,16 @@
+PODS:
+  - OMCommon (0.1.0)
+
+DEPENDENCIES:
+  - OMCommon (from `../`)
+
+EXTERNAL SOURCES:
+  OMCommon:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  OMCommon: 2cc8e75ad85b3468802f3ee46554f09e0c3812ab
+
+PODFILE CHECKSUM: ce3c29ce13a83061f52f1e963156bc20cc56c36e
+
+COCOAPODS: 1.12.1
