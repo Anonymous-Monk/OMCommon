@@ -7,6 +7,9 @@
 //
 
 #import "OMViewController.h"
+#import <OMCommon/RHMacros.h>
+#import <OMCommon/RHUIKit.h>
+#import <OMCommon/RHFoundation.h>
 
 @interface OMViewController ()
 
@@ -17,6 +20,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    RHLog(@"%@",[NSBundle rh_getBundleDisplayName]);
+    CGFloat width = rhAdaptedWidth(300);
+    RHLog(@"%f",width);
+
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

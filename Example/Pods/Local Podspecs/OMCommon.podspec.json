@@ -18,5 +18,16 @@
   "platforms": {
     "ios": "10.0"
   },
-  "source_files": "OMCommon/Classes/**/*"
+  "source_files": "OMCommon/Classes/**/*",
+  "dependencies": {
+    "AFNetworking": [
+      "4.0.1"
+    ],
+    "YYCache": [
+      "1.0.4"
+    ],
+    "MBProgressHUD": [
+      "1.1.0"
+    ]
+  }
 }
