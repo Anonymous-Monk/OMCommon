@@ -193,39 +193,6 @@ RH_EXTERN CGContextRef RHCGContextCreateGrayBitmapContext(CGSize size, CGFloat s
 }
 
 
-// return 0 when succeed
-static int matrix_invert(__CLPK_integer N, double *matrix) {
-    __CLPK_integer error = 0;
-    __CLPK_integer pivot_tmp[6 * 6];
-    __CLPK_integer *pivot = pivot_tmp;
-    double workspace_tmp[6 * 6];
-    double *workspace = workspace_tmp;
-    bool need_free = false;
-    
-    if (N > 6) {
-        need_free = true;
-        pivot = malloc(N * N * sizeof(__CLPK_integer));
-        if (!pivot) return -1;
-        workspace = malloc(N * sizeof(double));
-        if (!workspace) {
-            free(pivot);
-            return -1;
-        }
-    }
-    
-    dgetrf_(&N, &N, matrix, &N, pivot, &error);
-    
-    if (error == 0) {
-        dgetri_(&N, matrix, &N, pivot, workspace, &N, &error);
-    }
-    
-    if (need_free) {
-        free(pivot);
-        free(workspace);
-    }
-    return error;
-}
-
 RH_EXTERN UIViewContentMode RHCAGravityToUIViewContentMode(NSString *gravity) {
     static NSDictionary *dic;
     static dispatch_once_t onceToken;

@@ -28,6 +28,12 @@
     ],
     "MBProgressHUD": [
       "1.1.0"
+    ],
+    "jastor": [
+      "0.2.1"
+    ],
+    "SDWebImage": [
+      "5.12.1"
     ]
   }
 }

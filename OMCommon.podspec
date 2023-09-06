@@ -41,5 +41,6 @@ TODO: Add long description of the pod here.
   s.dependency 'AFNetworking', '4.0.1'
   s.dependency 'YYCache', '1.0.4'
   s.dependency 'MBProgressHUD', '1.1.0'
-  
+  s.dependency 'jastor', '0.2.1'
+  s.dependency 'SDWebImage', '5.12.1'
 end

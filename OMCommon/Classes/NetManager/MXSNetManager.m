@@ -13,8 +13,8 @@
 
 /*! 系统相册 */
 #import <Photos/Photos.h>
-#import "AFNetworking.h"
-#import "AFNetworkActivityIndicatorManager.h"
+#import <AFNetworking/AFNetworking.h>
+#import <AFNetworking/AFNetworkActivityIndicatorManager.h>
 #import "UIImage+RHCompress.h"
 #import "MXSNetManagerCache.h"
 
